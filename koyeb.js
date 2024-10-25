@@ -5,11 +5,11 @@ RUN sudo dnf -y update &&\
     sudo dnf install -y git ffmpeg ImageMagick nodejs yarnpkg libwebp &&\
     sudo dnf clean all -y
 
-RUN git https://github.com/salmanytofficial/XLICON-V2-MD
+RUN git https://github.com/PAPAIGWE241/QUEEN_ROSI
 
-WORKDIR /root/XLICON-V2-MD
+WORKDIR /root/QUEEN_ROSI
 
-COPY ./root/XLICON-V2-MD
+COPY ./root/QUEEN_ROSI
 
 RUN yarn install
 
